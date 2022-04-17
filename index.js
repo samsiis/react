@@ -1,0 +1,9 @@
+ReactDOM.render(
+  <ul>
+    <li>Bags</li>
+    <li>Shoes</li>
+    <li>Shirts</li>
+    <li>Skirts</li>
+  </ul>,
+  document.getElementById("root")
+);
