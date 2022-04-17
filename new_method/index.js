@@ -18,10 +18,38 @@ function HomePage() {
     </div>
   );
 }
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="./assets/react-logo.png" width="40px" height="40px" />
+        <h1> This is a fantastic React Training Page</h1>
+      </nav>
+    </header>
+  );
+}
+function Footer() {
+  return (
+    <footer>
+      <small>(C) 2022 Samuel Sopeju development. All rights reserved</small>
+    </footer>
+  );
+}
+function Page() {
+  return (
+    <ol>
+      <li>React is a top FE development Framework</li>
+      <li>With React, I can land some really cool jobs</li>
+      <li>With React, I can build some performant apps and beautiful UIs</li>
+    </ol>
+  );
+}
 
 ReactDOM.render(
   <div>
-    <HomePage />
+    <Header />
+    <Page />
+    <Footer />
   </div>,
   document.getElementById("root")
 );
