@@ -1,9 +1,19 @@
+function NavBar() {
+  return (
+    <nav>
+      <h1> SIIS incorporated</h1>
+      <ul>
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
+}
+
 ReactDOM.render(
-  <ul>
-    <li>Bags</li>
-    <li>Shoes</li>
-    <li>Shirts</li>
-    <li>Skirts</li>
-  </ul>,
+  <div>
+    <NavBar />
+  </div>,
   document.getElementById("root")
 );
